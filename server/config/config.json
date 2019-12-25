@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "akhil",
-    "password": "@khil@yca",
-    "database": "new_npm_jago",
-    "host": "rabbit.ycalabs.com",
+    "username": "",
+    "password": "",
+    "database": "",
+    "host": "",
     "port":"6606",
     "dialect": "mysql",
     "operatorsAliases": false
