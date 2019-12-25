@@ -1,0 +1,55 @@
+{
+  "name": "simple-nextjs-redux-starter",
+  "version": "1.0.0",
+  "description": "simple-nextjs-redux-starter",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node server/server",
+    "build": "NODE_ENV=production next build",
+    "start": "NODE_ENV=production next start",
+    "export": "  next export",
+    "release": "NODE_ENV=production node server/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arrow66/simple-nextjs-redux-starter.git"
+  },
+  "keywords": [
+    "nextjs",
+    "redux",
+    "react",
+    "materialui"
+  ],
+  "author": "Arjun Biju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arrow66/simple-nextjs-redux-starter/issues"
+  },
+  "homepage": "https://github.com/Arrow66/simple-nextjs-redux-starter#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.8.1",
+    "@material-ui/icons": "latest",
+    "@zeit/next-css": "^1.0.1",
+    "axios": "^0.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jss": "^10.0.0",
+    "morgan": "^1.9.1",
+    "mysql2": "^2.1.0",
+    "next": "^9.1.6",
+    "next-redux-wrapper": "latest",
+    "nodemon": "^2.0.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-redux": "latest",
+    "redux": "latest",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "latest",
+    "sequelize": "^5.21.3",
+    "styled-components": "^4.4.1"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.10.6",
+    "sequelize-cli": "^5.5.1"
+  }
+}
