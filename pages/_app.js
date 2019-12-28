@@ -31,7 +31,7 @@ const _App = withRedux(store)(
       return (
         <Container>
           <Head>
-            <title>Datacapture</title>
+            <title>Starter Template</title>
           </Head>
           <MuiThemeProvider theme={theme}>
             <div>
